@@ -692,6 +692,7 @@ function restartQuiz(){
         if(particles.length>0){ requestAnimationFrame(update); } else { animating = false; ctx.clearRect(0,0,W,H); }
     }
 })();
+    
 
 /* -------------------------
    Fin del script
